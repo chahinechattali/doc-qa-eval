@@ -1,0 +1,24 @@
+[
+  {"type": "direct", "question": "In welchem Jahr wurde BERT von Google veröffentlicht?", "answerable": true, "expected_keywords": ["2018"]},
+  {"type": "direct", "question": "GPT-2 ist ein Sprachmodell mit wie vielen Milliarden Parametern?", "answerable": true, "expected_keywords": ["1,5"]},
+  {"type": "direct", "question": "In welchem Jahr spielte AlphaGo gegen den Go-Spieler Lee Sedol?", "answerable": true, "expected_keywords": ["2016"]},
+  {"type": "direct", "question": "Wie viel Energie benötigte das Training des GPT-4-Modells schätzungsweise?", "answerable": true, "expected_keywords": ["50"]},
+  {"type": "direct", "question": "Wie viel Prozent des Stromverbrauchs in den USA werden für Rechenzentren aufgewendet?", "answerable": true, "expected_keywords": ["4,4"]},
+  {"type": "direct", "question": "Welches Modell veröffentlichten über 1.000 KI-Entwickler im Jahr 2022?", "answerable": true, "expected_keywords": ["BLOOM"]},
+  {"type": "direct", "question": "Unter welcher Lizenz sind die GPT-OSS Modelle lizenziert?", "answerable": true, "expected_keywords": ["Apache"]},
+  {"type": "direct", "question": "In welchem Jahr hat sich die MLCommons-Organisation gebildet?", "answerable": true, "expected_keywords": ["2018"]},
+
+  {"type": "paraphrase", "question": "Welche Firma steckt hinter dem Assistenten Claude?", "answerable": true, "expected_keywords": ["Anthropic"]},
+  {"type": "paraphrase", "question": "Wie nennt man es, wenn ein Modell durch Training mit KI-erzeugten Texten immer schlechter wird?", "answerable": true, "expected_keywords": ["kollaps"]},
+  {"type": "paraphrase", "question": "Welche deutschen Unternehmen entwickeln Sprachmodelle?", "answerable": true, "expected_keywords": ["Aleph"]},
+  {"type": "paraphrase", "question": "Wie viel Geld hat das Anlernen von GPT-4 gekostet?", "answerable": true, "expected_keywords": ["100"]},
+  {"type": "paraphrase", "question": "Mit welchen Programmen kann man ein Sprachmodell auf dem eigenen Rechner laufen lassen?", "answerable": true, "expected_keywords": ["Ollama"]},
+
+  {"type": "trap", "question": "Wie viele Parameter hat das Modell Mythos von Anthropic?", "answerable": false},
+  {"type": "trap", "question": "Wie viel Energie benötigte das Training von GPT-5?", "answerable": false},
+  {"type": "trap", "question": "Wie viele Mitarbeitende hat Aleph Alpha?", "answerable": false},
+  {"type": "trap", "question": "Wer ist der Geschäftsführer von Mistral AI?", "answerable": false},
+  {"type": "trap", "question": "Wie viel kostete das Training von Claude Sonnet 4?", "answerable": false},
+  {"type": "trap", "question": "Welche Grafikkarten wurden für das Training von LLaMA verwendet?", "answerable": false},
+  {"type": "trap", "question": "In welcher Stadt hat DeepSeek seinen Sitz?", "answerable": false}
+]

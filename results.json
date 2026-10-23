@@ -1,0 +1,212 @@
+{
+  "metrics": {
+    "n_questions": 20,
+    "accuracy_%": 75.0,
+    "hallucination_rate_%": 0.0,
+    "answerable_accuracy_%": 61.5,
+    "false_abstention_%": 38.5,
+    "correct_abstention_%": 100.0
+  },
+  "details": [
+    {
+      "question": "In welchem Jahr wurde BERT von Google veröffentlicht?",
+      "answerable": true,
+      "model_answer": "2018",
+      "quote": "BERT wurde 2018 von Google veröffentlicht.[7]",
+      "page": 2,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "GPT-2 ist ein Sprachmodell mit wie vielen Milliarden Parametern?",
+      "answerable": true,
+      "model_answer": "1,5 Milliarden",
+      "quote": "Es ist ein Sprachmodell mit 1,5 Milliarden Parametern, das mit einem Datensatz von 8 Millionen Webseiten trainiert wurde und auf Transformer-Technik basiert.",
+      "page": 3,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "In welchem Jahr spielte AlphaGo gegen den Go-Spieler Lee Sedol?",
+      "answerable": true,
+      "model_answer": "2016",
+      "quote": "Im Jahr 2016 erreichte AlphaGo, ein KI-Modell von Google DeepMind, eine neue Leistungsgrenze „künstlicher Intelligenz“ gegen den Go-Spieler Lee Sedol.",
+      "page": 2,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viel Energie benötigte das Training des GPT-4-Modells schätzungsweise?",
+      "answerable": true,
+      "model_answer": "rund 50 GWh",
+      "quote": "Schätzungsweise benötigte das Training des GPT-4- Modells von OpenAI rund 50 GWh Energie (Strom)",
+      "page": 4,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viel Prozent des Stromverbrauchs in den USA werden für Rechenzentren aufgewendet?",
+      "answerable": true,
+      "model_answer": "rund 4,4 Prozent",
+      "quote": "Schon heute werden rund 4,4 Prozent des gesamten Stromverbrauchs in den USA für Rechen- oder Datenzentren aufgewendet.",
+      "page": 4,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Welches Modell veröffentlichten über 1.000 KI-Entwickler im Jahr 2022?",
+      "answerable": true,
+      "model_answer": "BLOOM",
+      "quote": "Im Jahr 2022 veröffentlichten über 1.000 KI-Entwickler das Modell BLOOM (BigScience Large Open-science Open-access Multilingual Language Model).",
+      "page": 6,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Unter welcher Lizenz sind die GPT-OSS Modelle lizenziert?",
+      "answerable": true,
+      "model_answer": "Apache 2.0 Permissive License",
+      "quote": "Sie sind unter der „Permissive License“ von Apache 2.0 lizenziert",
+      "page": 6,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "In welchem Jahr hat sich die MLCommons-Organisation gebildet?",
+      "answerable": true,
+      "model_answer": "2018",
+      "quote": "Aufgrund der Komplexität des Themas hat sich 2018 die MLCommons-Organisation gebildet.[129]",
+      "page": 7,
+      "abstained": false,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Welche Firma steckt hinter dem Assistenten Claude?",
+      "answerable": true,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": false,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie nennt man es, wenn ein Modell durch Training mit KI-erzeugten Texten immer schlechter wird?",
+      "answerable": true,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": false,
+      "hallucinated": false
+    },
+    {
+      "question": "Welche deutschen Unternehmen entwickeln Sprachmodelle?",
+      "answerable": true,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": false,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viel Geld hat das Anlernen von GPT-4 gekostet?",
+      "answerable": true,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": false,
+      "hallucinated": false
+    },
+    {
+      "question": "Mit welchen Programmen kann man ein Sprachmodell auf dem eigenen Rechner laufen lassen?",
+      "answerable": true,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": false,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viele Parameter hat das Modell Mythos von Anthropic?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viel Energie benötigte das Training von GPT-5?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viele Mitarbeitende hat Aleph Alpha?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Wer ist der Geschäftsführer von Mistral AI?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Wie viel kostete das Training von Claude Sonnet 4?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "Welche Grafikkarten wurden für das Training von LLaMA verwendet?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    },
+    {
+      "question": "In welcher Stadt hat DeepSeek seinen Sitz?",
+      "answerable": false,
+      "model_answer": "Not found in the document.",
+      "quote": "",
+      "page": null,
+      "abstained": true,
+      "correct": true,
+      "hallucinated": false
+    }
+  ]
+}

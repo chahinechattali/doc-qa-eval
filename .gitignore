@@ -1,0 +1,12 @@
+# Secrets — never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Personal PDFs (commit only a public sample document)
+*.pdf
+!data/sample.pdf
