@@ -41,7 +41,7 @@
     {
       "question": "Wie viel Energie benötigte das Training des GPT-4-Modells schätzungsweise?",
       "answerable": true,
-      "model_answer": "rund 50 GWh",
+      "model_answer": "Rund 50 GWh Energie",
       "quote": "Schätzungsweise benötigte das Training des GPT-4- Modells von OpenAI rund 50 GWh Energie (Strom)",
       "page": 4,
       "abstained": false,
@@ -71,7 +71,7 @@
     {
       "question": "Unter welcher Lizenz sind die GPT-OSS Modelle lizenziert?",
       "answerable": true,
-      "model_answer": "Apache 2.0 Permissive License",
+      "model_answer": "Permissive License von Apache 2.0",
       "quote": "Sie sind unter der „Permissive License“ von Apache 2.0 lizenziert",
       "page": 6,
       "abstained": false,

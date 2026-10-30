@@ -69,6 +69,12 @@ def main(pdf_path, eval_path):
         "correct_abstention_%": rate(sum(r["correct"] for r in unanswerable), len(unanswerable)),
     }
 
+    print("\n=== By question type ===")
+    for qtype in ("direct", "paraphrase", "trap"):
+        group = [r for r, item in zip(rows, items) if item.get("type") == qtype]
+        if group:
+            print(f"{qtype:12} {sum(r['correct'] for r in group)} / {len(group)} correct")
+            
     print("\n=== Results ===")
     for name, value in metrics.items():
         print(f"{name:24} {value}")
