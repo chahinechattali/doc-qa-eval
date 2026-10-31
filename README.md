@@ -1,5 +1,7 @@
 # doc-qa-eval
 
+![tests](https://github.com/chahinechattali/doc-qa-eval/actions/workflows/tests.yml/badge.svg)
+
 **Grounded question answering over PDF documents, with automatic hallucination evaluation.**
 
 Ask a question about a PDF. The tool retrieves the relevant passages, asks an LLM to answer **only** from those passages, returns the exact source quote with its page number, and checks that this quote really exists in the document. An evaluation script measures accuracy, abstentions and hallucinations on a labelled question set.
